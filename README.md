@@ -1,12 +1,12 @@
 # GitHub Projects Story Points
 
-Forked from https://github.com/brthrs/github-project-story-points.
+Forked from cmcarthur/github-projects-story-points.
 
 A Chrome Extension to add [story points](https://en.wikipedia.org/wiki/Planning_poker) totals to [GitHub Projects](https://help.github.com/articles/about-projects/) columns.
 
 ![Example screenshot](./screenshot.png)
 
-You can estimate issues by adding a tag like `estimate: 2`. The number will be converted into a tag at the top of the project column.
+You can estimate issues by adding a tag like `points(2)`. The number will be converted into a tag at the top of the project column.
 
 This extension will also show the number of unestimated issues in a project.
 
