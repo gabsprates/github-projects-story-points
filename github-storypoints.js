@@ -1,7 +1,7 @@
 (function (d, w) {
 'use strict';
 
-var estimateRegEx = /^estimate: ([\d\.]+)$/im;
+var estimateRegEx = /^points\(([\d\.]+)\)$/im;
 
 var debounce = function (func, wait, immediate) {
   var timeout;
@@ -64,7 +64,7 @@ var addStoryPointsForColumn = (column) => {
 
       const estimateLabels = Array
         .from(card.getElementsByClassName('issue-card-label'))
-        .filter(label => label.innerText.includes('estimate'))
+        .filter(label => label.innerText.includes('points'))
 
       const firstEstimateText = (
         estimateLabels.length > 0 ? estimateLabels[0].innerText.trim() : null)
